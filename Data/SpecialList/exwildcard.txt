@@ -1,0 +1,10 @@
+/$$/etc/passwd
+/$$.bak
+/$$.BAK
+/$$.INI
+/$$.tar
+/$$.zip
+/$$.ini
+/$$.inc
+/$$.sql
+/$$.conf

@@ -1,0 +1,230 @@
+[
+    {
+        "hits": 0,
+        "path": "/autoconfig"
+    },
+    {
+        "hits": 0,
+        "path": "/beans"
+    },
+    {
+        "hits": 0,
+        "path": "/env"
+    },
+    {
+        "hits": 0,
+        "path": "/configprops"
+    },
+    {
+        "hits": 0,
+        "path": "/dump"
+    },
+    {
+        "hits": 0,
+        "path": "/health"
+    },
+    {
+        "hits": 0,
+        "path": "/info"
+    },
+    {
+        "hits": 0,
+        "path": "/mappings"
+    },
+    {
+        "hits": 0,
+        "path": "/metrics"
+    },
+    {
+        "hits": 0,
+        "path": "/shutdown"
+    },
+    {
+        "hits": 0,
+        "path": "/trace"
+    },
+    {
+        "hits": 0,
+        "path": "/jolokia/list"
+    },
+    {
+        "hits": 0,
+        "path": "/api-docs"
+    },
+    {
+        "hits": 0,
+        "path": "/v2/api-docs"
+    },
+    {
+        "hits": 0,
+        "path": "/swagger-ui.html"
+    },
+    {
+        "hits": 0,
+        "path": "/api.html"
+    },
+    {
+        "hits": 0,
+        "path": "/sw/swagger-ui.html"
+    },
+    {
+        "hits": 0,
+        "path": "/api/swagger-ui.html"
+    },
+    {
+        "hits": 0,
+        "path": "/template/swagger-ui.html"
+    },
+    {
+        "hits": 0,
+        "path": "/spring-security-rest/api/swagger-ui.html"
+    },
+    {
+        "hits": 0,
+        "path": "/spring-security-oauth-resource/swagger-ui.html"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/mappings"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/metrics"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/beans"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/configprops"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator"
+    },
+    {
+        "hits": 0,
+        "path": "/auditevents"
+    },
+    {
+        "hits": 0,
+        "path": "/caches"
+    },
+    {
+        "hits": 0,
+        "path": "/conditions"
+    },
+    {
+        "hits": 0,
+        "path": "/docs"
+    },
+    {
+        "hits": 0,
+        "path": "/flyway"
+    },
+    {
+        "hits": 0,
+        "path": "/heapdump"
+    },
+    {
+        "hits": 0,
+        "path": "/httptrace"
+    },
+    {
+        "hits": 0,
+        "path": "/management/env"
+    },
+    {
+        "hits": 0,
+        "path": "/intergrationgraph"
+    },
+    {
+        "hits": 0,
+        "path": "/jolokia"
+    },
+    {
+        "hits": 0,
+        "path": "/logfile"
+    },
+    {
+        "hits": 0,
+        "path": "/loggers"
+    },
+    {
+        "hits": 0,
+        "path": "/liquibase"
+    },
+    {
+        "hits": 0,
+        "path": "/prometheus"
+    },
+    {
+        "hits": 0,
+        "path": "/refresh"
+    },
+    {
+        "hits": 0,
+        "path": "/scheduledtasks"
+    },
+    {
+        "hits": 0,
+        "path": "/sessions"
+    },
+    {
+        "hits": 0,
+        "path": "/threaddump"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/auditevents"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/health"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/conditions"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/env"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/info"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/loggers"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/heapdump"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/threaddump"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/scheduledtasks"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/httptrace"
+    },
+    {
+        "hits": 0,
+        "path": "/heapdump"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/jolokia"
+    },
+    {
+        "hits": 0,
+        "path": "/actuator/hystrix.stream"
+    }
+]
