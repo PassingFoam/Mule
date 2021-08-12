@@ -28,6 +28,7 @@ Flags:
    * -t, --Thread int            the size of thread pool (default 30)
    * --blacklist ints        the black list of statuscode
    * -b, --block int             the number of auto stop brute (default 4)
+   * --blacklist                 the statuscode you don't neead
    * -d, --dic string            dictionary to brute
    * -f, --flag string           use default dictionary in /Data
    * -h, --help                  help for Brute
@@ -63,3 +64,5 @@ Mule Brute -u http://baidu.com -f php -U /root/aaa.txt -t 100 -o ./res3.log
 1. 御剑
 2. dirsearch
 3. ferobuster
+
+在1核1g的阿里云下，线程超时均相同的情况下进行测试，得出结果，比御剑和dirsearch速度均优于50%。

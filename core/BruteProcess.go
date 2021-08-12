@@ -6,7 +6,10 @@ import (
 	"fmt"
 	"github.com/fatih/color"
 	"github.com/panjf2000/ants"
+	"github.com/projectdiscovery/cdncheck"
 	"go.uber.org/zap"
+	"net"
+	"regexp"
 	"strings"
 	"sync"
 	"time"
@@ -93,6 +96,20 @@ func ScanTask(ctx context.Context, Opts Options, client *CustomClient) error {
 		if err != nil {
 			fmt.Println(err)
 			continue
+		}
+
+		// 加入cdn检测
+		r, _ := regexp.Compile("((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})(\\.((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})){3}")
+		if len(r.Find([]byte(curtarget))) != 0 {
+			ipv4 := string(r.Find([]byte(curtarget)))
+			client, err := cdncheck.NewWithCache()
+			if err == nil {
+				if found, err := client.Check(net.ParseIP("173.245.48.12")); found && err == nil {
+					fmt.Printf("%v is a part of cdn, so pass", ipv4)
+					continue
+				}
+			}
+
 		}
 
 		//// 完成对不存在页面的处理
